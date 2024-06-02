@@ -1,0 +1,268 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .top {
+        /* background-color: #002857; */
+        background-color: rgb(228, 28, 28);
+        /* display: flex;
+        justify-content: space-around;
+        align-items: center; */
+
+    }
+
+    @media screen and (max-width: 800px) {
+        .top {
+            /* padding:35px; */
+        }
+    }
+
+    .contact-1 {
+        text-decoration: none;
+    }
+
+    .contact-2 {
+        text-decoration: none;
+    }
+
+    .btn:hover {
+        background-color: red;
+        color: white;
+    }
+
+    .navbar-nav {
+        text-transform: uppercase;
+    }
+
+    .btn-outline-danger {
+        color: rgb(228, 28, 28);
+    }
+
+    .hero {
+        min-width: 100% !important;
+
+        background-image: url('./assets/a22217.jpg');
+        min-height: 650px;
+        /* min-width: 50%; */
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+        /* background-position-y: -150px; */
+        /* position: relative; */
+    }
+
+    .wl-txt {
+        color: white;
+        text-shadow: 0px 0px 1px black;
+        transform: translate(240px, 100px);
+
+    }
+
+    .wl-txt-2 {
+        text-shadow: 0px 0px 1px black;
+        color: white;
+        transform: translate(140px, 80px);
+
+    }
+
+    .wl-txt-3 {
+        text-shadow: 0px 0px 1px black;
+        color: white;
+        transform: translate(190px, 60px);
+
+        font-size: 35px;
+    }
+
+    @media screen and (max-width: 800px) {
+        .wl-txt {
+
+            transform: translate(30px, 100px);
+
+        }
+
+        .wl-txt-2 {
+
+            transform: translate(30px, 100px);
+
+        }
+
+        .wl-txt-3 {
+
+            transform: translate(30px, 100px);
+
+            font-size: 35px;
+        }
+    }
+
+
+
+    .values {
+        /* position: absolute;
+        margin: auto;
+        top: 700px;
+        left: 150px; */
+        width: 80%;
+        margin: auto;
+        background-color: rgb(250, 246, 246);
+        transform: translateY(-80px);
+    }
+
+    .fa-book {
+        font-size: 150px;
+        color: red;
+    }
+
+    .online-img {
+        display: block;
+        width: 50%;
+        margin: auto;
+    }
+
+    .about {
+        max-width: 80%;
+        margin: auto;
+    }
+
+    .about-img {
+        /* box-shadow: 0px 0px 2px black; */
+        /* border: 2px solid black; */
+        filter: drop-shadow(0px 0px 2px black);
+    }
+
+    .red {
+        font-size: 5px;
+        background-color: red;
+        color: red;
+    }
+
+    .read-btn {
+        background-color: red;
+    }
+
+    .cards {
+        max-width: 90%;
+        margin: auto;
+    }
+
+    .card-shadow {
+        box-shadow: 10px 10px 5px gray;
+    }
+
+    .gray {
+        background-color: rgb(250, 246, 246);
+    }
+
+    .empty {
+        min-height: 50px;
+    }
+
+    .bg-img {
+        background-color: #2b2d42;
+    }
+
+    .num {
+        color: red;
+    }
+
+    .box-1 {
+        background-color: rgba(255, 0, 0, 0.4);
+        transition: 0.7s ease-in-out;
+    }
+
+    .box-2 {
+        background-color: rgba(255, 0, 0, 0.4);
+        transition: 0.7s ease-in-out;
+    }
+
+    .box-3 {
+        background-color: rgba(255, 0, 0, 0.4);
+        transition: 0.7s ease-in-out;
+    }
+
+    .strip {
+        background-color: #f99d1c;
+    }
+
+    .box-img {
+        height: 650px;
+    }
+
+    .review-1 {
+        max-height: 450px;
+        background-color: rgb(228, 28, 28);
+        color: white;
+    }
+
+    #imgfix {
+        background-image: url('./assets/d5.png');
+        min-height: 700px;
+        background-size: cover;
+        z-index: 2;
+    }
+
+    .review-2 {
+        background-color: #2b2d42;
+    }
+
+    .review-2-img {
+        width: 200px;
+    }
+
+    .car-1 {
+        max-width: 90%;
+        margin: auto;
+    }
+
+    .h4,
+    .h5 {
+        color: rgb(228, 28, 28);
+    }
+
+    .subscribe {
+        background-color: #2b2d42;
+    }
+
+    .subscribe>div>h1 {
+        color: rgb(228, 28, 28);
+    }
+
+    .outer>div>a {
+        text-decoration: none;
+    }
+
+    .outer>div>a:hover {
+        text-decoration: underline;
+        text-decoration-color: rgb(228, 28, 28);
+    }
+
+    .copy {
+        background-color: rgb(228, 28, 28);
+    }
+
+    #newimg {
+        width: 100%;
+        height: 500px;
+    }
+
+    .card-btn {
+        background-color: rgb(228, 28, 28);
+        color: white;
+    }
+
+    .cb {
+        background-color: #2b2d42;
+    }
+
+    .rd {
+        color: rgb(228, 28, 28);
+    }
+
+    .shadow {
+        /* box-shadow: 10px 10px 5px black; */
+    }
